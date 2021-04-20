@@ -6,6 +6,7 @@
 * Mišo Radjovandjovic
 * Sonja Dolenc
 
+
 ## Kratek opis
 
 Vislice so preprosta igra, kjer igralec ugiba besedo. 
