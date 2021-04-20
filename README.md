@@ -4,6 +4,7 @@
 
 * Leon Bahovec
 * Mišo Radjovandjovic
+* Sonja Dolenc
 
 ## Kratek opis
 
