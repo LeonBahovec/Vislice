@@ -4,6 +4,7 @@
 
 * Leon Bahovec
 * Mišo Radjovandjovic
+* Janez Novak
 
 ## Kratek opis
 
