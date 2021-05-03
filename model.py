@@ -18,13 +18,16 @@ class Vislice:
         self.igre = {}
     
     def prost_id_igre(self):
-        return max(self.igre.keys()) + 1
+        if not self.igre:
+            return 1
+        else:
+            return max(self.igre.keys()) + 1
     
     def nova_igra(self):
         nov_id = self.prost_id_igre()
-        sveza = nova_igra(bazen_besed)
+        sveza = nova_igra()
         self.igre[nov_id] = (sveza, ZACETEK)
-        return nova_id
+        return nov_id
     def ugibaj(self, id_igre, crka):
         igra, stanje = self.igre[id_igre]
         novo_stanje = igra.ugibaj(crka)
