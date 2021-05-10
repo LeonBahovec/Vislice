@@ -1,7 +1,5 @@
-<!DOCTYPE html>
-<html>
-
-<body>
+% rebase("pageBase.tpl", title="Igrajmo se")
+%from model import ZMAGA, PORAZ
 
   <h1>Vislice</h1>
 
@@ -24,10 +22,6 @@
     <input type="submit">UGIBAJ!</input>
   </form>  
   % end
-
-
-
-
 </body>
 
 </html>
